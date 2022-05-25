@@ -4,6 +4,7 @@ ADIDAS AG is a multinational corporation, founded and head-quartered in Herzogen
 In the fiscal year of 2016, ADIDAS generated a total revenue of $19,068 million, increased by 18 percent. In its annual report, ADIDAS projects an annual growth in sale between 11 percent and 13 percent
 
 
+![adidas](https://user-images.githubusercontent.com/52907100/170199344-c4ee88ee-9db5-4d5f-87d9-ebb8a80d4756.jpg)
 
 
 ***BOX JENKIN MODEL***
