@@ -13,10 +13,16 @@ TSA - Contains R functions and datasets detailed in the book "Time Series Analys
 CADFtest - A Package to Perform Covariate Augmented Dickey-Fuller Unit Root Tests
 
 ***BOX JENKIN MODEL***
-Methodology.
+
+
 **Exploratory Data Analysis**: Here, we plot the time series plot, auto-correlation function(ACF) plot, partial auto-correlation function(PACF) plot, and EACF of the time series. 
+
 **Finding Models**: Here, we find the models by checking the number of bars in ACF plot to find the MA(q) and number of bars in PACF to find the AR(p) and then cross check it with EACF to find ARMA(p,q) model.
+
 **Stationarity**: Here, we test for stationarity of the TS by Augmented Dicky Fuller test. If the TS is stationary we proceed to the next step, otherwise if the TS is non-stationary, we apply differencing,transforming, and detrending to remove stationarity from the TS and then use Augmented Dicky Fuller test to test for stationarity again.
+
 **Parameter Estimation** : we compare multiple models based on the AIC and BIC scores, log likelihood values, Adjusted Pearson Goodness-of-Fit Test, Ljung-Box Test, ARCH LM Tests etc and select the best model from them.
+
 **Residual Analysis** : Here, we analyse the residuals of the bets model by making ACF plot, Histogram, QQ plot, Residual plot and check for Shapiro-Wilk test and Ljung-Box test.
+
 **Prediction**: Here, we use the best model to forecast the revenue of Adidas
